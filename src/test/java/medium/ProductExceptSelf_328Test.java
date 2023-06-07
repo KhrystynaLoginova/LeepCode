@@ -13,7 +13,12 @@ public class ProductExceptSelf_328Test {
     }
     @Test
     public void Test1() {
-        Assertions.assertEquals(2, pes328.productExceptSelf(new int[]{1, 2, 3, 4, 5, 6}));
+        Assertions.assertArrayEquals(new int[]{0,0,9,0,0}, pes328.productExceptSelf(new int[]{-1,1,0,-3,3}));
+    }
+
+    @Test
+    public void Test2ß() {
+        Assertions.assertArrayEquals(new int[]{24,12,8,6}, pes328.productExceptSelf(new int[]{1,2,3,4}));
     }
 
 }

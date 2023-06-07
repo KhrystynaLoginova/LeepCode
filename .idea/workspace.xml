@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="040a07cd-08a0-4e24-afe4-d34db3c367d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/easy/CanPlaceFlowers_605.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/easy/ReverseVowels_345.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/medium/ProductExceptSelf_328.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/medium/ReverseWords_151.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/easy/CanPlaceFlowers_605Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/medium/ProductExceptSelf_328Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/medium/ProductExceptSelf_328.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/medium/ProductExceptSelf_328.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/medium/ProductExceptSelf_328Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/medium/ProductExceptSelf_328Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +59,7 @@
       <recent name="org.example.hard" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ProductExceptSelf_328Test">
+  <component name="RunManager" selected="Gradle.ProductExceptSelf_328Test.Test2ß">
     <configuration name="CanPlaceFlowers_605Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -78,30 +74,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;easy.CanPlaceFlowers_605Test&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="CanPlaceFlowers_605Test.Test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;easy.CanPlaceFlowers_605Test.Test1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -136,30 +108,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="GcdOfStrings_1071Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;easy.GcdOfStrings_1071Test&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="ProductExceptSelf_328Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -184,13 +132,61 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="ProductExceptSelf_328Test.Test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;medium.ProductExceptSelf_328Test.Test1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProductExceptSelf_328Test.Test2ß" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;medium.ProductExceptSelf_328Test.Test2ß&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ProductExceptSelf_328Test.Test2ß" />
+        <item itemvalue="Gradle.ProductExceptSelf_328Test.Test1" />
         <item itemvalue="Gradle.ProductExceptSelf_328Test" />
         <item itemvalue="Gradle.CanPlaceFlowers_605Test" />
         <item itemvalue="Gradle.CanPlaceFlowers_605Test.Test4" />
-        <item itemvalue="Gradle.CanPlaceFlowers_605Test.Test1" />
-        <item itemvalue="Gradle.GcdOfStrings_1071Test" />
       </list>
     </recent_temporary>
   </component>
