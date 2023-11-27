@@ -1,16 +1,15 @@
 package org.example;
 
+import org.example.easy.RansomNote_383;
 import org.example.medium.LongestSubstring_3;
+import org.example.medium.MaxNumber_1679;
 
 // Press ⇧ twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        LongestSubstring_3 ls3 = new LongestSubstring_3();
-        System.out.println(ls3.lengthOfLongestSubstring("dvdf"));
-        System.out.println(ls3.lengthOfLongestSubstring("pwwkew"));
-        System.out.println(ls3.lengthOfLongestSubstring("tmmzuxt"));
-        System.out.println(ls3.lengthOfLongestSubstring("abcabcbb"));
-        System.out.println(ls3.lengthOfLongestSubstring("bpfbhmipx"));
+        MaxNumber_1679 mn = new MaxNumber_1679();
+        int[] nums = new int[] {2,5,4,4,1,3,4,4,1,4,4,1,2,1,2,2,3,2,4,2};
+        mn.maxOperations(nums, 3);
     }
 }
