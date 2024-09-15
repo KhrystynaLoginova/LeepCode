@@ -10,6 +10,7 @@ public class MergeAlternately_1768 {
         int len2 = word2.length();
         int num1 = 0, num2 = 0;
 
+
         StringBuilder resultBuilder = new StringBuilder();
         while (num1 < len1 && num2 < len2) {
             resultBuilder.append(word1.charAt(num1));

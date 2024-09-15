@@ -1,6 +1,6 @@
 package org.example.easy;
 
-import java.util.*;
+import java.util.List;
 
 public class ReverseVowels_345 {
     public String reverseVowels(String s) {
@@ -17,8 +17,7 @@ public class ReverseVowels_345 {
                 end--;
             } else if (vowels.contains(charArray[start]) && !vowels.contains(charArray[end])) {
                 end--;
-            }
-            else if (!vowels.contains(charArray[start]) && vowels.contains(charArray[end])) {
+            } else if (!vowels.contains(charArray[start]) && vowels.contains(charArray[end])) {
                 start++;
             } else {
                 start++;

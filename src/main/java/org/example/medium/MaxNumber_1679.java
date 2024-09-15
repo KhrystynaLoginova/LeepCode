@@ -1,6 +1,6 @@
 package org.example.medium;
 
-import java.util.*;
+import java.util.Arrays;
 
 public class MaxNumber_1679 {
 
@@ -14,7 +14,7 @@ public class MaxNumber_1679 {
                 pairs++;
                 i++;
                 n--;
-            } else if (k - nums[i] > nums[n]){
+            } else if (k - nums[i] > nums[n]) {
                 i++;
             } else {
                 n--;

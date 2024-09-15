@@ -22,7 +22,7 @@ public class MedianSortedArrays_4 {
     public double getResult(int[] result) {
         int medianIdx = result.length / 2;
         int l3 = result.length;
-        if (l3%2 == 0) {
+        if (l3 % 2 == 0) {
             return (double) (result[medianIdx - 1] + result[medianIdx]) / 2;
         } else {
             return result[medianIdx];
@@ -32,7 +32,7 @@ public class MedianSortedArrays_4 {
     public double getResult(List<Integer> result) {
         int medianIdx = result.size() / 2;
         int l3 = result.size();
-        if (l3%2 == 0) {
+        if (l3 % 2 == 0) {
             return (double) (result.get(medianIdx - 1) + result.get(medianIdx)) / 2;
         } else {
             return result.get(medianIdx);

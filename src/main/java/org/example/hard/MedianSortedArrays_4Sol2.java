@@ -17,7 +17,7 @@ public class MedianSortedArrays_4Sol2 {
                 merge(merged, nums1, 0, nums2, 0, 0);
                 return (double) (merged[idx - 2] + merged[idx - 1]) / 2;
             } else {
-                int idx =  (int) Math.ceil((double) l3 / 2);
+                int idx = (int) Math.ceil((double) l3 / 2);
                 int[] merged = new int[idx];
                 merge(merged, nums1, 0, nums2, 0, 0);
                 return merged[idx - 1];

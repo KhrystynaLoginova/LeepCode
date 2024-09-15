@@ -4,7 +4,7 @@ public class RansomNote_383 {
     public boolean canConstruct(String ransomNote, String magazine) {
         int[] letters = new int[128];
         char[] validateArr = ransomNote.toCharArray();
-        for (int i = 0 ; i < validateArr.length; i++) {
+        for (int i = 0; i < validateArr.length; i++) {
             System.out.println(i);
             int idx = magazine.indexOf(validateArr[i], letters[validateArr[i]]);
             System.out.println(validateArr[i]);

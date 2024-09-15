@@ -2,7 +2,7 @@ package org.example.easy;
 
 public class GcdOfStrings_1071 {
     public String gcdOfStrings(String str1, String str2) {
-        if (!(str1+str2).equals(str2+str1)) {
+        if (!(str1 + str2).equals(str2 + str1)) {
             return "";
         }
         int length = gcd(str1.length(), str2.length());

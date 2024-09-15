@@ -16,7 +16,7 @@ public class KidsWithCandies_1431 {
                 max = candy;
             }
         }
-        for (int i =0 ; i < ac.size(); i++) {
+        for (int i = 0; i < ac.size(); i++) {
             if (ac.get(i) >= max) {
                 result.set(i, true);
             }

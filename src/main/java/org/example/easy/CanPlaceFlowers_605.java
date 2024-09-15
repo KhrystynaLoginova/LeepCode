@@ -1,10 +1,5 @@
 package org.example.easy;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
 public class CanPlaceFlowers_605 {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         int space = 0;

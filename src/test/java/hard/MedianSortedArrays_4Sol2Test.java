@@ -7,10 +7,12 @@ import org.junit.jupiter.api.Test;
 
 public class MedianSortedArrays_4Sol2Test {
     private MedianSortedArrays_4Sol2 ms4;
+
     @BeforeEach
     public void before() {
         ms4 = new MedianSortedArrays_4Sol2();
     }
+
     @Test
     public void Test1() {
         Assertions.assertEquals(2, ms4.findMedianSortedArrays(new int[]{1, 3}, new int[]{2}));
@@ -35,8 +37,8 @@ public class MedianSortedArrays_4Sol2Test {
     public void Test4() {
         Assertions.assertEquals(3,
                 ms4.findMedianSortedArrays(
-                        new int[]{1,1,1,1,1,1,1,1,1,1,4,4},
-                        new int[]{1,3,4,4,4,4,4,4,4,4,4}));
+                        new int[]{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 4},
+                        new int[]{1, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4}));
     }
 
     @Test
@@ -44,7 +46,7 @@ public class MedianSortedArrays_4Sol2Test {
         Assertions.assertEquals(1, ms4.findMedianSortedArrays(new int[]{1, 1}, new int[]{1, 2}));
     }
 
-@Test
+    @Test
     public void Test7() {
         Assertions.assertEquals(3, ms4.findMedianSortedArrays(new int[]{2, 2, 4, 4},
                 new int[]{2, 2, 4, 4}));

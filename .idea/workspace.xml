@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="040a07cd-08a0-4e24-afe4-d34db3c367d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/easy/MaxAccountPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/easy/RansomNote_383.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/medium/IncreasingTriplet_334.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/medium/MaxNumber_1679.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/medium/StringCompression_443.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/easy/Difference_2215.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/easy/MaxAverage_643.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/easy/PivotIndex_724.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/medium/MaxOnes_1004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/medium/MaxVowels_1456.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/easy/MergeAlternately_1768.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/easy/MergeAlternately_1768.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +55,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "onboarding.tips.debug.path": "/Users/khrystyna_loginova/Projects/LeetCode/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -70,6 +71,8 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="LeetCode.main" />
+      <option name="PROGRAM_PARAMETERS" value="100" />
+      <option name="VM_PARAMETERS" value="-XX:-PrintCompilation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -176,6 +179,13 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Gradle.CanPlaceFlowers_605Test" />
+      <item itemvalue="Gradle.ProductExceptSelf_328Test" />
+      <item itemvalue="Gradle.ProductExceptSelf_328Test.Test1" />
+      <item itemvalue="Gradle.ProductExceptSelf_328Test.Test2ß" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -230,7 +240,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
+          <line>16</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

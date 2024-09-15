@@ -1,4 +1,5 @@
 package org.example.medium;
+
 public class ReverseWords_151 {
     public String reverseWords(String s) {
         String[] array = s.split("\\s+");

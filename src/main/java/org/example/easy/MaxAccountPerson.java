@@ -1,8 +1,5 @@
 package org.example.easy;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class MaxAccountPerson {
     public int maximumWealth(int[][] accounts) {
         int result = 0;

@@ -7,10 +7,12 @@ import org.junit.jupiter.api.Test;
 
 public class GcdOfStrings_1071Test {
     private GcdOfStrings_1071 gos1071;
+
     @BeforeEach
     public void before() {
         gos1071 = new GcdOfStrings_1071();
     }
+
     @Test
     public void Test1() {
         Assertions.assertEquals("abcd", gos1071.gcdOfStrings("abcdabcd", "abcd"));

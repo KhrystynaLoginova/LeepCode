@@ -1,8 +1,5 @@
 package org.example.medium;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class StringCompression_443 {
     public int compress(char[] chars) {
         int l = 0;
@@ -31,6 +28,7 @@ public class StringCompression_443 {
         l = addAmount(count, chars, l);
         return l;
     }
+
     private int addAmount(int count, char[] chars, int l) {
         if (count > 1) {
             char[] array = (String.valueOf(count)).toCharArray();
